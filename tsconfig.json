@@ -34,7 +34,7 @@
     "**/*.tsx",
     "next-env.d.ts",
     ".next/types/**/*.ts"
-  ],
+, "app/events/page.js", ", "app/fridges/page.js"app/analytics/page.js", "app/stores/page.js", "app/map/page.js", "app/page.js", "app/layout.js"  ],
   "exclude": [
     "node_modules"
   ]

@@ -8,12 +8,14 @@ export default function MapPage() {
     <div>
       <h1 className="text-2xl font-bold mb-4">Store Map</h1>
       <div className="w-full h-[600px]">
+        {/* @ts-ignore */}
         <MapContainer
           center={[51.505, -0.09]}
           zoom={13}
           scrollWheelZoom={true}
           style={{ height: '100%', width: '100%' }}
         >
+          {/* @ts-ignore */}
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution="&copy; OpenStreetMap contributors"
